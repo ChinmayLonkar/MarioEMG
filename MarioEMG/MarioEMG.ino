@@ -1,8 +1,13 @@
-#include <Servo.h>
+// MarioEMG - BioAmp EXG Pill
+// https://github.com/upsidedownlabs/BioAmp-EXG-Pill
 
-// MarioEMG
+// Upside Down Labs invests time and resources providing this open source code,
+// please support Upside Down Labs and open-source hardware by purchasing
+// products from Upside Down Labs!
 
 // Copyright (c) 2021 BigBrainRobos
+// Copyright (c) 2021 Upside Down Labs - contact@upsidedownlabs.tech
+
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
@@ -21,6 +26,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#include <Servo.h>
 #define SampleRate 500 //Sampling frequency for bio-amp EXG Pill
 #define BaudRate 9600  //Set desired Baudrate
 #define inputPin A0
